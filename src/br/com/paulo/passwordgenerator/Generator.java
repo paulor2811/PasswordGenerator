@@ -4,7 +4,7 @@ import java.util.Random;
 
 public class Generator {
 	
-	private static String CHARS = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+	private static String CHARS;
 	
 	public static String Generator(final int LENGTH) {
 	    StringBuilder password = new StringBuilder();
