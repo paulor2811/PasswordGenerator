@@ -90,7 +90,7 @@ public class Frame {
         	    if(checkbox6.isSelected()){
         	    	if(isEmpty() == 0) {
         	    		isSelected();
-        	    		textArea.setText(generator.Generator(6));
+        	    		textArea.setText(Generator.Generator(6));
         	    	}
         	    }
         	}
@@ -101,7 +101,7 @@ public class Frame {
         	    if(checkbox8.isSelected()){
         	    	if(isEmpty() == 0) {
         	    		isSelected();
-        	    		textArea.setText(generator.Generator(8));
+        	    		textArea.setText(Generator.Generator(8));
         	    	}
         	    }
         	}
@@ -112,7 +112,7 @@ public class Frame {
         		if(checkbox16.isSelected()){
         			if(isEmpty() == 0) {
         				isSelected();
-        				textArea.setText(generator.Generator(16));
+        				textArea.setText(Generator.Generator(16));
         			}
         		}
         	}
